@@ -1,10 +1,18 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-    <meta name="google-site-verification" content="ZOpD0MGXdGOlruLJIgkVCC_0gJ0Kwp2JP7asbtZY6IQ" />
-  </head>
-  <body>
-    <p>This is an example paragraph.</p>
-  </body>
-</html>
+---
+layout: default
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
