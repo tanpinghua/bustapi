@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is a mini blog to share project and guides for Raspberry Pi related project. 
+A mini blog on Raspberry Pi related projects.
 
 ### Contact me
 
