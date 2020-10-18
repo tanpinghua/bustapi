@@ -36,11 +36,11 @@ plugins:
 defaults:
   -
     scope:
-      path: ""
-      type: "post"
+      path: 
+      type: posts
     values:
         #values
-        layout: "post"
+        layout: post
         permalink: /:title/
 
 
