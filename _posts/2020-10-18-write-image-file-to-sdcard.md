@@ -8,7 +8,7 @@ This article share the step by step on how to write a Raspberry Pi image onto SD
 
 ## Using Raspberry Pi Imager
 
-The simplest way to write image file onto SDcard is by using official Raspberry Pi Imager from Raspberry Pi. You can get the Raspberry Pi Imager from the official Raspberry Pi download page [here](https://www.raspberrypi.org/downloads/).
+The simplest way to write image file onto SDcard is by using official Raspberry Pi Imager from Raspberry Pi. You can get the Raspberry Pi Imager from the official Raspberry Pi download page <a href="https://www.raspberrypi.org/downloads/" target="_blank">here</a>.
 
 Choose the download according to the operating system of the computer that you will use to write the image file. 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vTXKTixmfXPOVivINy1wMpD3B_ohDypFGnxU7-BmXCTf13FX3CrU0LFZfn0xoMx7LIjOpUyrbk5v7RX/pub?w=951&amp;h=714">
