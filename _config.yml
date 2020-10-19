@@ -40,7 +40,6 @@ defaults:
       type: posts
     values:
         #values
-        layout: post
         permalink: /:title/
 
 
