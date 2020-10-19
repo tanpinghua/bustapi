@@ -12,7 +12,7 @@ The simplest way to write image file onto SDcard is by using official Raspberry 
 
 Choose the download according to the operating system of the computer that you will use to write the image file. 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vTXKTixmfXPOVivINy1wMpD3B_ohDypFGnxU7-BmXCTf13FX3CrU0LFZfn0xoMx7LIjOpUyrbk5v7RX/pub?w=951&amp;h=714">
-
+<!--more-->
 For Windows version, you will need to install it onto your PC. After completing the installation, run Raspberry Pi Imager from your PC, and this will be the main windows. 
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vQ00Qmn4cTI4CHaBp7YYJk2_QF9XakA2eRxDPqGApEHEBWu4CA6ttsd0SbLwDx2zMBpAqAM7rHoPh5O/pub?w=813&amp;h=622">
