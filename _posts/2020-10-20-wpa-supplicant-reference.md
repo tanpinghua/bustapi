@@ -5,22 +5,22 @@ categories: reference
 ---
 
 Normally WPA Supplicant file is located at:
-{% highlight %}
+{% highlight ruby %}
 /etc/wpa_supplicant/wpa_supplicant.conf
 {% endhighlight %}
 
 You can easily edit the file by using nano:
-{% highlight %}
+{% highlight ruby %}
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 {% endhighlight %}
 
 or vim:
-{% highlight %}
+{% highlight ruby %}
 sudo vim /etc/wpa_supplicant/wpa_supplicant.conf
 {% endhighlight %}
 
 The default format for the file is:
-{% highlight %}
+{% highlight ruby %}
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=<Insert 2 letter ISO 3166-1 country code here>
