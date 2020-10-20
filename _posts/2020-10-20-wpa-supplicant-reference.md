@@ -31,7 +31,7 @@ network={
 }
 {% endhighlight %}
 
-Reference for country code [here](https://en.wikipedia.org/wiki/ISO_3166-1){:target="_blank"}
+Reference for country code [here](https://en.wikipedia.org/wiki/ISO_3166-1){:target="_blank"}.
 
 
 
