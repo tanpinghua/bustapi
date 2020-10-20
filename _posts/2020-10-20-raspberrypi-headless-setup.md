@@ -44,10 +44,17 @@ Replace the country code, ssid and psk according to your country and WiF setup. 
 
 ### First boot up
 
-Insert the SDCard into your Raspberry Pi, take note that we are using WiFi communication for the connection through SSH, so you will need to use the Raspberry Pi that has WiFi built-in. Connect the power connector and it should boot up accordingly. Also be sure that the RaspberryPi is within the coverage of the WiFi configured onto wpa_supplicant.conf file in the previous steps. 
+Insert the SDCard into your Raspberry Pi, take note that we are using WiFi communication for the connection through SSH, so you will need to use the Raspberry Pi that has built-in WiFi module. Connect the power connector and it should boot up accordingly. Also be sure that the RaspberryPi is within the coverage of the WiFi configured onto wpa_supplicant.conf file in the previous steps. 
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vQuabd-FJcBRaIX1-7At3weWDDbkIklNHnnzbDQCYMMNWc0xXHIFWt5636YYDSACNjU0pN_6QlWV2Ie/pub?w=817&amp;h=696">
 
+For the first bootup it should take some time for the initial configuration, the expansion of partition and etc. After which it should be automatically connected to the WiFi according to your wpa_supplicant.conf file. In order to get the IP Address of the RaspberryPi, there are several ways. In this guide I am using Advance IP Scanner to scan through all the connected device in my local network, and eventually find the IP Address of the RaspberryPi.
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQJBSnLD2nX9XTrOSxbbng0Hr2IEtPZDhqfyj7MFa_pIKYjMtn2NsgAX4jwmBockMDXHDfUjcEOxG63/pub?w=959&amp;h=615">
 
+Aside from using this method, you can also check the connected device via your Router page, or you can use zeroconf method, or there are actually tons of way to get the IP address of your connected RaspberryPi.
+
+### SSH to the Raspberry Pi
+
+After getting the IP Address, you can now access the device through SSH. 
 
