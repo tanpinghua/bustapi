@@ -8,7 +8,11 @@ This article explains the step by step in setting up a headless Raspberrypi runn
 
 A standard method of setting up a Raspberrypi, involves writing the image file onto the SDCard, insert the SDCard into a Raspberrypi, and normally it will require a monitor and keyboard for the first boot to configure the WiFi, SSH, VNC, and etc. However we noticed that in a lot of scenario, we are not able to connect this RaspberryPi to a Monitor and a Keyboard. In this guide, the steps involved here will get you onto your Raspberrypi without the need for a Monitor or Keyboard.
 
+### Write image file onto SDCard
+
 First, to write the Raspberry Pi OS, you can refer to [this]({% post_url 2020-10-18-write-image-file-to-sdcard %}){:target="_blank"} guide for more details. After you have the SDCard written, before inserting them into your Raspberry Pi, insert them into your PC as we will need to add some files onto it. If you have just completed the Raspberry Pi Imager, you might need to remove and re-insert the SDCard as the Raspberry Pi Imager will automatically unmount your SDCard from your PC.
+
+### Add in "ssh" and "wpa_supplicant.conf" file to boot drive
 
 After inserting the SDCard to your PC, you should see a drive called **boot** in your My Computer windows. Sometimes your computer might show a message saying that "you'll need to format the drive to continue". You can ignore the message as it is due to the ext4 drive format that is not supported by Windows. 
 
@@ -30,11 +34,20 @@ Next you will need to create a file called "wpa_supplicant.conf" under the same 
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vRE5LHmb5K_hO8k5xwUEnUy3hsRG9Qiz1PgWE7ca2Cvn8AIspjnhRE_8iflko1LIDjeE8E55l2_5H3f/pub?w=958&amp;h=494">
 
+### Edit wpa_supplicant.conf according to your WiFi setup
+
 Next edit this file by using Notepad++ or any text editor that is available for you.
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vTgmRY23d1E_sCSSbEjyloZ7EjDoXlgalyrww2BbmBjj7zwfZae95pyLwUwMB3EGqx-4hJdTxWp2GJa/pub?w=958&amp;h=612">
 
-Replace the country code, ssid and psk according to your setup. You can refer for more information about wpa_supplicant.conf [here]({% post_url 2020-10-20-wpa-supplicant-reference %}){:target="_blank"}. After that, save the file, and eject the SDCard from your PC. 
+Replace the country code, ssid and psk according to your country and WiF setup. You can refer for more information about wpa_supplicant.conf [here]({% post_url 2020-10-20-wpa-supplicant-reference %}){:target="_blank"}. After that, save the file, and eject the SDCard from your PC. The SDCard are now ready for the first boot up.
+
+### First boot up
+
+Insert the SDCard into your Raspberry Pi, take note that we are using WiFi communication for the connection through SSH, so you will need to use the Raspberry Pi that has WiFi built-in. Connect the power connector and it should boot up accordingly. Also be sure that the RaspberryPi is within the coverage of the WiFi configured onto wpa_supplicant.conf file in the previous steps. 
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQuabd-FJcBRaIX1-7At3weWDDbkIklNHnnzbDQCYMMNWc0xXHIFWt5636YYDSACNjU0pN_6QlWV2Ie/pub?w=817&amp;h=696">
+
 
 
 
