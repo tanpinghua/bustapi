@@ -14,7 +14,7 @@ Under the main application page, you can configure the range of IP address to sc
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vQEUpR5ep00YRKap56zY5vOmSi_EAgPLJtavqSVf1viA1Tw2-kSO33sejEoA8kEbddc2_U9bHJGiLmJ/pub?w=953&amp;h=658">
 
-Basically the system will scan through the range of IP address and display the list of available device found in the range. I found out that in order to get a better result, it is recommended to turn on the High-accuracy scanning in the options. Navigate to **Settings > Options > Performance** and click on the "High-accuracy scanning (lower speed) checkbox and click OK. 
+Basically the system will scan through the range of IP address and display the list of available device found in the range. I found out that in order to get a better result, it is recommended to turn ON the High-accuracy scanning in the options. Navigate to **Settings > Options > Performance** and click on the "High-accuracy scanning (lower speed) checkbox and click OK. 
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vTAx_y7XC9pxjX6ekzx9b9Y0D_NWqnN2Rvg8LXkzM9DN6JsAfemCv6Vctw7jwi0DHMFL3Fxa--LBkVb/pub?w=955&amp;h=644">
 
