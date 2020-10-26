@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Write Image File onto SDcard
+title: Write Image File to SDcard
 categories: how-to
 ---
 
