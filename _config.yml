@@ -42,7 +42,10 @@ defaults:
         #values
         permalink: /:title/
         excerpt_separator: <!--more-->
-        
+
+# Google Analytics
+google_analytics: G-GPC3TYZYGQ
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
