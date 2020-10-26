@@ -48,7 +48,7 @@ Insert the SDCard into your Raspberry Pi, take note that we are using WiFi commu
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vQuabd-FJcBRaIX1-7At3weWDDbkIklNHnnzbDQCYMMNWc0xXHIFWt5636YYDSACNjU0pN_6QlWV2Ie/pub?w=817&amp;h=696">
 
-For the first bootup it should take some time for the initial configuration, the expansion of partition and etc. After which it should be automatically connected to the WiFi according to your wpa_supplicant.conf file. In order to get the IP Address of the RaspberryPi, there are several ways. In this guide I am using Advance IP Scanner to scan through all the connected device in my local network, and eventually find the IP Address of the RaspberryPi.
+For the first bootup it should take some time for the initial configuration, the expansion of partition and etc. After which it should be automatically connected to the WiFi according to your wpa_supplicant.conf file. In order to get the IP Address of the RaspberryPi, there are several ways. In this guide I am using Advance IP Scanner (more info [here]({% post_url 2020-10-20-advanced-ip-scanner %}){:target="_blank"}) to scan through all the connected device in my local network, and eventually find the IP Address of the RaspberryPi.
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vQJBSnLD2nX9XTrOSxbbng0Hr2IEtPZDhqfyj7MFa_pIKYjMtn2NsgAX4jwmBockMDXHDfUjcEOxG63/pub?w=959&amp;h=615">
 
